@@ -21,7 +21,7 @@ MCP (Model Context Protocol) is a standard to connect AI models with external da
 1. Clone this repo:
 
    ```bash
-   git clone https://github.com/yourusername/mcp-sample-project.git
+   git clone https://github.com/sanjeetkumaritoutlook-user/mcp-sample-project.git
    cd mcp-sample-project
    ```
    
