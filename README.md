@@ -2,13 +2,28 @@
 
 This is a simple Node.js example demonstrating the Model Context Protocol (MCP).
 
+## First project is related to Python 
+python is more suited to be deployed on Render than Vercel
+
+python has requirements.txt , something similar to package.json
+
+Vercel is not optimized for Python/Flask by default
+
+Vercel is designed primarily for Node.js, Next.js, React, etc.
+
+However, you can deploy Flask using:
+
+Serverless functions via Python (using Vercel's experimental Python support)
+
+Or better: deploy Flask to Render.com, Fly.io, or Railway.app
+
 ## What is MCP?
 
 MCP (Model Context Protocol) is a standard to connect AI models with external data/tools via a protocol.
 
 ---
 
-## Project Structure
+## Another parallel Project Structure
 
 - `server.js` - MCP server exposing API actions
 - `client.js` - MCP client calling the server
